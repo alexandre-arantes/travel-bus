@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Águia Branca | Passagens de Ônibus: segurança e conforto</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a href="index.html" class="logo me-auto me-lg-0"><img src="images/logo.png" alt="" class="img-fluid"></a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto"> 
+	          <li><a class="nav-link scrollto" href="#about">Sobre</a></li>
+			  <li><a class="nav-link scrollto " href="#promocao">Promoções</a></li> 
+	          <li><a class="nav-link scrollto" href="#destinos"> Destinos</a></li>
+	          <li><a class="nav-link scrollto" href="#feedbacks" >Feedbacks</a></li>
+	          <li><a class="nav-link scrollto"  href="#Encomendas">Encomendas</a></li> 
+              <li><a class="nav-link scrollto"  href="#faq">FAQ</a></li>  &nbsp;&nbsp;
+              <li class="nav-item cta"><a href="#" class="nav-link">Entrar</a></li>			  
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    
+    <div class="hero-wrap js-fullheight" style="background-image: url('images/viacao-aguia-branca.jpg');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
+          <div class="col-md-9 text text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+          	<a href="https://www.youtube.com/watch?v=CNAZAF4g5ro" class="icon-video popup-vimeo d-flex align-items-center justify-content-center mb-4">
+          		<span class="ion-ios-play"></span>
+            </a>
+            <p class="caps" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Com a Promoção "Viagem Feliz!" da Águia Branca você concorre a 1000 viagens!</p>
+            <h1 data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Compre no site e economize!</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="ftco-section ftco-no-pb ftco-no-pt">
+	<form>
+    	<div class="container">
+	    	<div class="row">
+					<div class="col-md-12">
+						<div class="search-wrap-1 ftco-animate p-4">
+							<form action="#" class="search-property-1">
+		        		<div class="row">
+		        			<div class="col-lg align-items-end">
+		        				<div class="form-group"> 
+		          				<div class="form-field"> 
+				                <input type="text" class="form-control" placeholder="Origem">
+				              </div>
+			              </div>
+						  </div> 
+						  <div class="col-lg align-items-end">
+		        				<div class="form-group"> 
+		          				<div class="form-field"> 
+				                <input type="text" class="form-control" placeholder="Destino">
+				              </div>
+			              </div>
+						  </div> 
+		        			<div class="col-lg align-items-end">
+		        				<div class="form-group"> 
+		        					<div class="form-field"> 
+				                <input type="text" class="form-control checkin_date" placeholder="Data de ida">
+				              </div>
+			              </div>
+		        			</div>
+		        			<div class="col-lg align-items-end">
+		        				<div class="form-group"> 
+		        					<div class="form-field">
+				                <input type="text" class="form-control checkout_date" placeholder="Data de volta">
+				              </div>
+			              </div>
+		        			</div> 
+		        				<div class="form-group">  
+		                      <select  id="passageiros" class="form-control">
+		                        <option>1 passageiro</option>
+		                        <option>2 passageiros</option>
+		                        <option>3 passageiros</option>
+		                        <option>4 passageiros</option>
+                                <option>5 passageiros</option>
+		                        <option>6 passageiros</option>
+		                        <option>7 passageiros</option>
+		                        <option>8 passageiros</option>  								
+		                      </select>
+		                   
+				               
+			              </div> 
+		        			<div class="col-lg align-self-end">
+		        				<div class="form-group">
+		        					<div class="form-field">
+				                <input type="submit" value="Buscar" class="form-control btn btn-primary">
+				              </div>
+			              </div>
+		        			</div>
+		        		</div>
+		        	</form>
+		        </div>
+					</div>
+	    	</div>
+	    </div>
+	</form>	
+    </section>
+
+	    <section class="ftco-section ftco-no-pt" id="promocao">
+    	<div class="container">
+    		 <br>
+        <div class="row">
+        	 
+        	 
+        	<div class="col-md-4 ftco-animate">
+        		<div class="project-wrap">
+        			<a href="#" class="img" style="background-image: url(images/AB-100viagens-Email.webp);border-radius: 22px;"></a>
+        			<div class="text p-4">
+        				<span class="price">Ganhar!</span> 
+        			</div>
+        		</div>
+        	</div>
+			
+            <div class="col-md-4 ftco-animate">
+        		<div class="project-wrap">
+        			<a href="#" class="img" style="background-image: url(images/AB-AmigoModoON-Email.webp); border-radius: 22px;"></a>
+        			<div class="text p-4">
+        				<span class="price">Ganhar!</span> 
+			        </div>
+        		</div>
+        	</div>
+
+        	 
+        	<div class="col-md-4 ftco-animate">
+        		<div class="project-wrap">
+        			<a href="#" class="img" style="background-image: url(images/AB-Cashback-EMail-2.webp) ; border-radius: 22px;"></a>
+        			<div class="text p-4">
+        				<span class="price">Ganhar!</span> 	 
+        			</div>
+        		</div>
+        	</div>
+        	 
+        </div>
+    	</div>
+    </section>
+	
+    
+
+    <section class="ftco-counter img"   id="about">
+    	<div class="container">
+    		<div class="row d-flex">
+    			<div class="col-md-6 d-flex">
+    				<div class="img d-flex align-self-stretch" style="background-image:url(images/about.jpg);"></div>
+    			</div>
+    			<div class="col-md-6 pl-md-5 py-5">
+    				<div class="row justify-content-start pb-3">
+		          <div class="col-md-12 heading-section ftco-animate">
+		            <h2 class="mb-4">Atitude sustentável</h2>
+		            <p>Para nós a sustentabilidade é viver o hoje, focado no amanhã. Avaliando e identificando impactos ambientais, buscamos sempre adequar nossas atividades para promover medidas de preservação ao meio ambiente. Como resultado, em 2011 vencemos o Prêmio Boas Práticas do Transporte Terrestre de Passageiros (ANTP/ABRATI) na categoria “Responsabilidade Socioambiental”.</p>
+		          </div>
+		        </div>
+		    		<div class="row">
+		          <div class="col-md-4 justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center mb-4">
+		              <div class="text">
+		                <strong class="number" data-number="700">0</strong>
+		                <span>Localidades atendidas</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-4 justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center mb-4">
+		              <div class="text">
+		                <strong class="number" data-number="30000">0</strong>
+		                <span>Passageiros transportados por semana</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-4 justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center mb-4">
+		              <div class="text">
+		                <strong class="number" data-number="347">0</strong>
+		                <span>Linhas estaduais e inter-municipais</span>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+	        </div>
+        </div>
+    	</div>
+    </section>
+
+
+		<section class="ftco-section" id="destinos">
+    	<div class="container">
+    		<div class="row justify-content-center pb-4">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+            <h2 class="mb-4">Antecipe e pague menos!</h2>
+          </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-3 ftco-animate">
+        		<div class="project-destination">
+        			<a href="#" class="img" style="background-image: url(images/rio.webp);">
+        				<div class="text">
+        					<h3>São Paulo-Rio</h3>
+        					<span>Conferir</span>
+        				</div>
+        			</a>
+        		</div>
+        	</div>
+        	<div class="col-md-3 ftco-animate">
+        		<div class="project-destination">
+        			<a href="#" class="img" style="background-image: url(images/vitoria.webp);">
+        				<div class="text">
+        					<h3>Vitória-Rio</h3>
+        					<span>Conferir</span>
+        				</div>
+        			</a>
+        		</div>
+        	</div>
+        	<div class="col-md-3 ftco-animate">
+        		<div class="project-destination">
+        			<a href="#" class="img" style="background-image: url(images/gv.webp);">
+        				<div class="text">
+        					<h3>Vitória-Governador Valadares</h3>
+        					<span>Conferir</span>
+        				</div>
+        			</a>
+        		</div>
+        	</div>
+        	<div class="col-md-3 ftco-animate">
+        		<div class="project-destination">
+        			<a href="#" class="img" style="background-image: url(images/aracaju.webp);">
+        				<div class="text">
+        					<h3>Salvador-Aracauju</h3>
+        					<span>Conferir</span>
+        				</div>
+        			</a>
+        		</div>
+        	</div>
+        </div>
+    	</div>
+    </section>
+
+
+
+    <section class="ftco-section testimony-section bg-bottom" style="background-image: url(images/bg_1.jpg);" id="feedbacks">
+      <div class="container">
+        <div class="row justify-content-center pb-4">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <h2 class="mb-4" style="color: white;">Feedbacks</h2>
+          </div>
+        </div>
+        <div class="row ftco-animate">
+          <div class="col-md-12">
+            <div class="carousel-testimony owl-carousel ftco-owl">
+              <div class="item">
+                <div class="testimony-wrap py-4">
+                  <div class="text">
+                    <p class="mb-4">Trabalho há 12 anos como Motorista da Viação Águia Branca e sempre recebi o suporte que precisei. Excelente empresa para trabalhar .</p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Rogerério Santos</p>
+		                    <span class="position">Colaborador</span>
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap py-4">
+                  <div class="text">
+                    <p class="mb-4">Utilizo do transporte da Viação Águia Branca todos os fins de semana para visitar minha família. Sempre fui muito bem atendido.</p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Alberto Dias</p>
+		                    <span class="position">Cliente</span>
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap py-4">
+                  <div class="text">
+                    <p class="mb-4">Sempre que preciso entregar uma encomenda, não penso duas vezes! Sempre utilizo o serviço da Águia Branca! </p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Fábio Costa</p>
+		                    <span class="position">Cliente</span>
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap py-4">
+                  <div class="text">
+                    <p class="mb-4">Sou mochileiro! Amo viajar! E não penso duas vezes, sempre uso o serviço da Viação Águia Branca! É o transporte mais barato para jovens viajantes como eu! </p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/testimonials-5.jpg)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Márcio Silva</p>
+		                    <span class="position">Viajante</span>
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap py-4">
+                  <div class="text">
+                    <p class="mb-4">Sempre que venho ao Brasil, utilizo a viação Águia Branca para chegar do Aeroporto de Salvador para minha cidade. Excelente serviço, recomendo a todos que precisam de transporte inter-municipal.</p>
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url(images/person_4.jpg)"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Alexander Von Strausser</p>
+		                    <span class="position">Turista</span>
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="ftco-section" id="Encomendas">
+      <div class="container">
+      	<div class="row justify-content-center pb-4">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+            <h2 class="mb-4">Mais da Águia Branca</h2>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://www.aguiabranca.com.br/coronavirus-nossos-cuidados" class="block-20" style="background-image: url(images/Cuidados.jpg);">
+              </a>
+              <div class="text mt-3 float-right d-block"> 
+                <h3 class="heading"><a href="https://www.aguiabranca.com.br/coronavirus-nossos-cuidados">A Águia Branca é conhecida por sua segurança com seus passageiros.</a></h3>
+                <p>Conheça nosso padrão de cuidado e segurança para para uma viagem tranquila.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://aguiabrancaviagens.p2d.travel/reservas/home?utm_source=site&utm_medium=banner-home&utm_campaign=ab-viagens" class="block-20" style="background-image: url('images/AB-Viagens.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block"> 
+                <h3 class="heading"><a href="https://aguiabrancaviagens.p2d.travel/reservas/home?utm_source=site&utm_medium=banner-home&utm_campaign=ab-viagens">Mais praticidade pra viajar? Agora você pode reservar até sua hospedagem com a gente!</a></h3>
+                <p>Em nosso site, você pode reservar hotéis, voos e pacotes para curtir suas férias com tranquilidade. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end" >
+              <a href="https://www.aguiabranca.com.br/encomendas" class="block-20" style="background-image: url('images/Encomendas.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block"> 
+                <h3 class="heading"><a href="https://www.aguiabranca.com.br/encomendas">Os melhores prazos de entrega para diversos destinos em todo o Brasil.</a></h3>
+                <p>Conosco, suas encomendas chegam em tempo recorde! Serviço rápdio e sem burocracia. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </section>
+	
+	<section class="faq_area" id="faq">
+
+<div class="faq_area section_padding_130" id="faq">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-8 col-lg-6">
+                <!-- Section Heading-->
+                <div class="section_heading text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <h3><span>Perguntas  </span>frequentes </h3> 
+					<p>Caso não encontre sua iformação, fique à vontade para entrar em contato conosco quando quiser!</p>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <!-- FAQ Area-->
+            <div class="col-12 col-sm-10 col-lg-12">
+                <div class="accordion faq-accordian" id="faqAccordion">
+                    <div class="card border-0 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                        <div class="card-header" id="headingOne">
+                            <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Como faço para trocar ou cancelar minha passagem de ônibus?<span class="lni-chevron-up"></span></h6>
+                        </div>
+                        <div class="collapse" id="collapseOne" aria-labelledby="headingOne" data-parent="#faqAccordion">
+                            <div class="card-body">
+                                <p>A passagem adquirida pelo site poderá ser trocada no próprio site, basta acessar Minha Conta> Minhas Reservas. As passagens também podem ser trocadas via SAC ou em uma agência mais próxima. Mas fique atento às regras e prazos para cancelamento e remarcação da sua passagem de ônibus..</p>
+                                 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                        <div class="card-header" id="headingTwo">
+                            <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">Quais são as formas de pagamento disponíveis pelo site? <span class="lni-chevron-up"></span></h6>
+                        </div>
+                        <div class="collapse" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+                            <div class="card-body"> 
+                                <p>As formas de pagamento das passagens de ônibus disponíveis pelo site são: Cartão de Débito, PIX ou Cartão de crédito das seguintes bandeiras: Visa, Mastercard, Hipercard, American Express, Diners Club, Elo e Aura.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                        <div class="card-header" id="headingThree">
+                            <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Posso apresentar a passagem de ônibus pelo celular? <span class="lni-chevron-up"></span></h6>
+                        </div>
+                        <div class="collapse" id="collapseThree" aria-labelledby="headingThree" data-parent="#faqAccordion">
+                            <div class="card-body">
+                                <p>Sim. Ao efetuar a compra você receberá seu bilhete eletrônico na tela de confirmação e no seu e-mail, e este vale para embarque. O bilhete pode ser impresso, ou então apresentado diretamente na tela do seu celular..</p>
+                                 
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>
+<br> 
+    <footer class="ftco-footer bg-bottom" style="background: #5C88DA ;">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <img src="images/logo.svg" style=" width: 232px; ">
+			  <br> <br> <br>
+              <p>Movemos o mundo com excelência e respeito às pessoas </p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+              <h2 class="ftco-heading-2">Informações</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Formas de pagamento</a></li>
+                <li><a href="#" class="py-2 d-block">Viagens com animais</a></li>
+                <li><a href="#" class="py-2 d-block">Cancelamento, troca e remarcação</a></li>
+                <li><a href="#" class="py-2 d-block">Gratuidade nas passagens</a></li>
+                <li><a href="#" class="py-2 d-block">Seguro Intermunicipal</a></li>
+                <li><a href="#" class="py-2 d-block">Sobre nós</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Para sua viagem</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Bagagem</a></li>
+                <li><a href="#" class="py-2 d-block">Dicas para viajar</a></li>
+                <li><a href="#" class="py-2 d-block">Documentos para viajar</a></li>
+                <li><a href="#" class="py-2 d-block">Passagem digital </a></li>
+                <li><a href="#" class="py-2 d-block">Notícias</a></li>
+                <li><a href="#" class="py-2 d-block">Regulamento e promoções</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Contato</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li> <span class="icon icon-map-marker"></span><span class="text">Av. Mario Gurgel, 5030 - Cariacica - ES</span></li>
+	                <li> <span class="icon icon-phone"></span><span class="text">0800 725 1211</span></a></li>
+	                <li> <span class="icon icon-envelope"></span><span class="text"> sac@aguiabranca.com.br</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
